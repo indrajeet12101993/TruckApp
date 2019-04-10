@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/registration_background_colour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:focusableInTouchMode="true"
+                  android:layout_height="wrap_content">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/toolbar_background_colour"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:orientation="vertical"
+                          android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_15sdp"
+                        android:orientation="horizontal"
+                >
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_vertical"
+                            app:civ_border_color="@color/toolbar_background_colour"
+                            android:contentDescription="@string/nav_header_desc"
+                            android:src="@drawable/profile_pic"
+                    />
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_15sdp"
+                            android:orientation="vertical">
+
+
+
+                            <com.google.android.material.textfield.TextInputEditText
+
+                                    android:layout_width="match_parent"
+                                    android:inputType="number"
+                                    android:textColor="@color/yellow"
+                                    android:id="@+id/tv_username"
+                                    android:background="@null"
+                                    android:layout_height="wrap_content"
+                                  />
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout android:layout_width="match_parent"
+                                android:layout_marginStart="@dimen/_15sdp"
+                                android:layout_marginEnd="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+
+                                android:layout_height="wrap_content">
+                    <com.google.android.material.textfield.TextInputLayout
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#a0a0a0"
+                            app:errorEnabled="true">
+
+                        <com.google.android.material.textfield.TextInputEditText
+
+                                android:layout_width="match_parent"
+                                android:inputType="number"
+                                android:textColor="@color/black"
+                                android:id="@+id/et_number"
+
+                                android:backgroundTint="#979797"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/mobile_number"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout android:layout_width="match_parent"
+                                android:layout_marginStart="@dimen/_15sdp"
+                                android:layout_marginEnd="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_height="wrap_content">
+                    <com.google.android.material.textfield.TextInputLayout
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:textColorHint="#a0a0a0"
+                            android:layout_height="wrap_content"
+                            app:errorEnabled="true">
+
+                        <com.google.android.material.textfield.TextInputEditText
+
+                                android:layout_width="match_parent"
+                                android:textColorHint="#a0a0a0"
+                                android:inputType="textEmailAddress"
+                                android:textColor="@color/black"
+                                android:id="@+id/et_email"
+
+                                android:backgroundTint="#979797"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/email"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </RelativeLayout>
+                <LinearLayout android:layout_width="match_parent"
+                                android:layout_marginStart="@dimen/_15sdp"
+                                android:layout_marginEnd="@dimen/_15sdp"
+                              android:orientation="vertical"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_height="wrap_content">
+                    <com.google.android.material.textfield.TextInputLayout
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:textColorHint="#a0a0a0"
+                            android:layout_height="wrap_content"
+                            app:passwordToggleEnabled="true"
+                            app:passwordToggleTint="@color/textcolour"
+                            app:errorEnabled="true">
+
+                        <com.google.android.material.textfield.TextInputEditText
+
+                                android:layout_width="match_parent"
+                                android:textColorHint="#a0a0a0"
+                                android:inputType="textPassword"
+                                android:textColor="@color/black"
+                                android:backgroundTint="#979797"
+                                android:id="@+id/etpassword"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/enter_your_password"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:orientation="vertical"
+                            android:background="@drawable/square"
+                            android:layout_height="wrap_content">
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/_16sdp"
+                                android:textColor="@color/login_text_color"
+                                android:id="@+id/tv_updatePassword"
+                                android:textAllCaps="true"
+                                android:layout_gravity="center"
+                                android:padding="@dimen/_8sdp"
+                                android:text="@string/update_password"
+                        />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

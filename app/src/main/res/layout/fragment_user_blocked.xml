@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:text="Kindly visit our office alongwith following documents to make your account active and start earning! "/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:text="(कृपया निम्नलिखीत दश्तावेजो के साथ हमारे कार्यालय में जाये अपना खाता सक्रिय करे और कमाई सुरु करे !) "/>
+
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent"
+                                           android:layout_height="wrap_content">
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:layout_margin="@dimen/_10sdp"
+                      android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#87ceeb"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="@string/_1_pan_card"/>
+            <View android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:background="@android:color/holo_red_light">
+
+            </View>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#87ceeb"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="@string/_2_aadhaar_card"/>
+            <View android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:background="@android:color/holo_red_light">
+
+            </View>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:textColor="#87ceeb"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="@string/_3_driving_license"/>
+            <View android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:background="@android:color/holo_red_light">
+
+            </View>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:textColor="#87ceeb"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="@string/_4_original_rc_of_vehicle"/>
+            <View android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:background="@android:color/holo_red_light">
+
+            </View>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:textColor="#87ceeb"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="@string/_5_vehicle_insurance_driver_and_third_party"/>
+            <View android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:background="@android:color/holo_red_light">
+
+            </View>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:textColor="#87ceeb"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="@string/_6_cancelled_cheque_or_passbook"/>
+            <View android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:background="@android:color/holo_red_light">
+
+            </View>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:textColor="#87ceeb"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="@string/_7_gstin_rc_if_registerd"/>
+            <View android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:background="@android:color/holo_red_light">
+
+            </View>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:textColor="#87ceeb"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="@string/_8_address_proff_it_diffrent_n_from_aadhaar_card"/>
+            <View android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:background="@android:color/holo_red_light">
+
+            </View>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:id="@+id/relative_login"
+                android:orientation="vertical"
+                android:background="@drawable/square"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_16sdp"
+                    android:textColor="@color/login_text_color"
+                    android:id="@+id/tv_contact"
+                    android:textAllCaps="true"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_8sdp"
+                    android:text="@string/contact_or_visit_us_here"
+            />
+        </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

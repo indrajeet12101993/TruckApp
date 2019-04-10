@@ -1,0 +1,222 @@
+<resources>
+    <string name="app_name">Operator - Truck In Transit App</string>
+    <string name="bank_and_kyc_details">Bank and KYC Details</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="mobile_number">mobileNumber</string>
+    <string name="email">EmailAddress</string>
+    <string name="state">State</string>
+    <string name="adress">address</string>
+    <string name="enter_otp">Enter Otp</string>
+    <string name="enter_4_digit_otp_number_to_proceed">Please enter 6 digit OTP number to proceed</string>
+    <string name="login">LOGIN</string>
+    <string name="or_login_with_password">Or Login with password</string>
+    <string name="by_clicking_on_login_you_agree_to_our_terms_of_service_and_privacy_policy">By clicking on login, you
+        agree to our terms of service and privacy policy
+    </string>
+    <string name="terms_of_service">Terms Of service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="_91_enter_your_10_digit_mobile_number">Enter Your 10 digit mobile Number</string>
+    <string name="next">Next</string>
+    <string name="emptynumber">phone no. should not be empty!</string>
+    <string name="valid_input_number">please input valid 10 digit number</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="valid_otp">please input valid otp</string>
+    <string name="registration">Registration</string>
+    <string name="transport">Transport</string>
+    <string name="bank">Bank</string>
+    <string name="transport_company_name">Transport Company/owner Name</string>
+    <string name="transport_company_gstin_optional">Transport Company GSTIN (Optional)</string>
+    <string name="transport_company_address">Transport Company Address</string>
+    <string name="transpoart_registration_number_optional">Transport Registration Number (Optional)</string>
+    <string name="error_no_text">Required Input Field</string>
+    <string name="aadhaar_number_optional">Aadhaar Number</string>
+    <string name="pan_number">Pan Number</string>
+    <string name="bank_account_number_optional">Bank Account Number (Optional)</string>
+    <string name="ifsc_optional">IFSC (Optional)</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_email_id">Enter Your Email Id</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="confirmpassword">Confirm your password</string>
+    <string name="resend_sms">Resend Sms</string>
+    <string name="passwordnotmatch">Password doesn\'t match</string>
+    <string name="profileImage">Please select image</string>
+    <string name="truck">Truck</string>
+    <string name="in_transit">In Transit</string>
+    <string name="whenever_you_want_it_we_are_in_transit">Whenever you want it, We are in transit!</string>
+    <string name="app_text">At TruckInTransit, Our operators earn money with the help of leading technology and
+        innovative pricing catalogue. Join as a operator with a mini-truck or 2 Wheeler!
+    </string>
+    <string name="partner_with_us">Partner With Us</string>
+    <string name="attractive_incomes">Attractive Incomes</string>
+    <string name="distanceandtimematrix">Income as per distance and time matrix as per the category of vehicle.</string>
+    <string name="yourdrivers">Your Drivers</string>
+    <string name="add_driver">Add Driver</string>
+    <string name="name_as_per_aaddar_card">Name as Per Aaddar Card</string>
+    <string name="registed_in_city">Registed in City</string>
+    <string name="basic_info">Basic Info</string>
+    <string name="attach_driver_photo">Attach Driver Photo *</string>
+    <string name="attach_aaddhar_photo">Attach Aaddhar Photo *</string>
+    <string name="attach_dl_photo">Attach DL Photo *</string>
+    <string name="attach_current_address_proof_with_photo">Attach Current Address proof with Photo</string>
+    <string name="save">save</string>
+    <string name="aaddhar_number">Aaddhar Number</string>
+    <string name="dl_number">DL Number</string>
+    <string name="dl_expire_date">DL Expire Date</string>
+    <string name="vehicale_brand_name">Vehicle Brand Name</string>
+    <string name="vehicle_model">Vehicle Model</string>
+    <string name="registor_no">Registor No.</string>
+    <string name="colour">Colour</string>
+    <string name="size">Size</string>
+    <string name="capacity">Capacity</string>
+    <string name="select_body_type">Select Body Type</string>
+    <string name="select_feild_type">Select Fuel Type</string>
+    <string name="select_vehicle">Select Vehicle</string>
+    <string name="vehicle_documents">Vehicle Documents</string>
+    <string name="rc">RC *</string>
+    <string name="insurance">Insurance *</string>
+    <string name="permit_validity">Permit Validity</string>
+    <string name="puc">PUC *</string>
+    <string name="fitness">fitness validity</string>
+    <string name="fast_tag_number">Fast Tag Number</string>
+    <string name="add_insurance">Add Insurance</string>
+    <string name="edit_insurance">Edit Insurance</string>
+    <string name="select_company_name">Select Company Name</string>
+    <string name="insurancedate">Insurance Validity Date</string>
+    <string name="attach_insurance_photo">Attach Insurance Photo</string>
+    <string name="edit_insurance_photo">Edit Insurance Photo</string>
+    <string name="add_rc">Add RC</string>
+    <string name="edit_rc">Edit RC</string>
+    <string name="rc_no">RC NO</string>
+    <string name="attach_rc_photo">Attach RC Photo</string>
+    <string name="edit_rc_photo">Edit RC Photo</string>
+    <string name="add_permit">Add Permit</string>
+    <string name="edit_permit">Edit Permit</string>
+    <string name="permit_number">Permit Number</string>
+    <string name="valid_upto">Valid Up to</string>
+    <string name="attach_permit_photo">Attach Permit Photo</string>
+    <string name="edit_permit_photo">Edit Permit Photo</string>
+    <string name="add_fitness_validity">Add Fitness Validity</string>
+    <string name="edit_fitness_validity">Edit Fitness Validity</string>
+    <string name="fitness_number">Fitness Number</string>
+    <string name="attach_fitness_validity_photo">Attach Fitness Validity Photo</string>
+    <string name="edit_fitness_validity_photo">Edit Fitness Validity Photo</string>
+    <string name="add_puc">Add Puc</string>
+    <string name="edit_puc">Edit Puc</string>
+    <string name="refer_earn"><![CDATA[Refer & Earn]]></string>
+    <string name="vehicle_profile">Your Vehicles</string>
+    <string name="title_activity_driver_location">Map</string>
+    <string name="online">Online</string>
+    <string name="offfline">Offline</string>
+    <string name="select_city">Select City</string>
+    <string name="valid_phone_number">Please Enter Valid Phone Number</string>
+    <string name="valid_mail_adress">Please Enter Valid Email Address</string>
+    <string name="edit_adhar_photo">Edit Addhar Photo</string>
+    <string name="edit_driver_photo">Edit Driver Photo</string>
+    <string name="edit_dl_photo">Edit DL Photo</string>
+    <string name="edit_current_adress_photo">Edit current address proof with photo</string>
+    <string name="new_booking">New Booking</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="nodriverfound">No Driver Found</string>
+    <string name="novehiclefound">No Vehicle Found</string>
+    <string name="onroad">On Road</string>
+    <string name="active">Actvie</string>
+    <string name="pending">Pending</string>
+    <string name="driver">Drivers</string>
+    <string name="add_fast_tag_number">Add Fast Tag Number</string>
+    <string name="edit_fast_tag_number">Edit Fast Tag Number</string>
+    <string name="you_profile_is_been_not_approved_please_wait_for_approval">Due to non-submission of documents, your
+        account has not been approved.
+    </string>
+    <string name="edit_basic_info">Edit Basic Info</string>
+    <string name="edit_driver">Edit Driver</string>
+    <string name="select_capicity">Select Capacity</string>
+    <string name="select_body">Select Body</string>
+    <string name="select_fuel_type">Select Fuel Type</string>
+    <string name="select_vehicle_type">Select Vehicle Type</string>
+    <string name="attach_puc_photo">Attach Puc Photo</string>
+    <string name="edit_puc_photo">Edit Puc Photo</string>
+    <string name="edit_vehicle">Edit Vehicle</string>
+    <string name="add_vehicle_details">Add Vehicle</string>
+    <string name="edit_vehicle_documents">Edit Vehicle Documents</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="panlength">please input valid 10 digit pan number</string>
+    <string name="adhar_length">please input valid 12 digit Adhar number</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="inactvie">INACTIVE</string>
+    <string name="active_message">Your Profile is approved Now you can add vehicle or driver</string>
+    <string name="active_message_driver_admin">Your Profile is approved Now you can add vehicle or driver or find
+        rider
+    </string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="verified_users">Manage your Drivers and Vehicles</string>
+    <string name="commute_with_verified_users_for_secure_and_safe_transits">Through this app, you can manage all your
+        drivers and vehicles at your comfort.
+    </string>
+    <string name="live_tracking">Live Tracking</string>
+    <string name="provides_real_time_location_and_status_of_ride_participants_on_live_map">Track your fleets/ vehicles
+        real-time and receive live alerts.
+    </string>
+    <string name="please_enter_your_nmobile_number_to_proceed">Please enter your mobile number to proceed</string>
+    <string name="basic_details">Basic Details</string>
+    <string name="your_photo">Your Photo</string>
+    <string name="transport_company_details">Transport Company Details</string>
+    <string name="accountnotapproved">Account Unapproved</string>
+    <string name="_1_pan_card">1.PAN Card</string>
+    <string name="_2_aadhaar_card">2.Aadhaar card</string>
+    <string name="_3_driving_license">3.Driving License</string>
+    <string name="_4_original_rc_of_vehicle">4.Original Rc of vehicle</string>
+    <string name="_5_vehicle_insurance_driver_and_third_party">5.vehicle Insurance(Driver And Third Party)</string>
+    <string name="_6_cancelled_cheque_or_passbook">6.Cancelled cheque or Passbook</string>
+    <string name="_7_gstin_rc_if_registerd">7.GSTIN RC(if Registerd)</string>
+    <string name="_8_address_proff_it_diffrent_n_from_aadhaar_card">8.Address proff(it diffrent from aadhaar card)
+    </string>
+    <string name="contact_or_visit_us_here">Contact or visit us here</string>
+    <string name="findrider">Your Status</string>
+    <string name="dashboarad">Dashboard</string>
+
+    <string name="yourprofile">Your Profile</string>
+    <string name="yourdriverprofile">Your Driver Profile</string>
+    <string name="yourvehile">Your Vehicle</string>
+    <string name="yourearnings">Your Earning</string>
+    <string name="refer"><![CDATA[Refer & Earning]]></string>
+    <string name="support">Support/Help</string>
+    <string name="logout">Logout</string>
+    <string name="payments">Payments</string>
+    <string name="notifications"><![CDATA[Notification & Offers]]></string>
+    <string name="about">About</string>
+    <string name="privacy"><![CDATA[Privacy & Policy]]></string>
+    <string name="terms"><![CDATA[Terms & Conditions]]></string>
+    <string name="rides">Rides</string>
+    <string name="parcel_delivery">2 Wheelers</string>
+    <string name="truck_hiring">Others</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="add_vehicle_type">Add Vehicle Type</string>
+    <string name="choose_language">Choose language</string>
+    <string name="update_password">Update</string>
+    <string name="password">Password</string>
+    <string name="assign_driver">Assign Driver</string>
+    <string name="operator">Operator</string>
+    <string name="get_notified_for_all_the_due_dates_of_documents_expiring">Get notified for all the due dates of
+        documents expiring.
+    </string>
+    <string name="monitor_perforance_of_vehicles_and_drivers">Monitor perforance of Vehicles and Drivers.</string>
+    <string name="best_payouts">Best Payouts.</string>
+    <string name="extra_earning_opportunities">Extra earning opportunities.</string>
+    <string name="assign_vehicle">Assign vehicle to driver</string>
+    <string name="enter_otp_provide_by_driver">Enter Otp provide By driver</string>
+    <string name="change_keyborad">Change Keyborad</string>
+    <string name="gpsdisabled">GPS is disabled in your device.do turn on gps setting</string>
+    <string name="front">Front side</string>
+    <string name="back_side">Back side</string>
+    <string name="deactivatedriver">DeActivate Driver</string>
+    <string name="activatedriver">Activate Driver</string>
+    <string name="setting">Setting</string>
+
+
+</resources>

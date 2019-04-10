@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_height="match_parent"
+>
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_above="@+id/tv_partner"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:focusableInTouchMode="true"
+                      android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:textColor="@color/yellow"
+                    android:id="@+id/tv_insurance"
+
+            />
+
+
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:orientation="vertical"
+                          android:layout_marginTop="@dimen/_12sdp"
+                          android:layout_marginStart="@dimen/_20sdp"
+                          android:layout_marginEnd="@dimen/_20sdp"
+                          android:layout_marginBottom="@dimen/_20sdp"
+                          android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/textcolour"
+                        app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:inputType="text"
+                            android:id="@+id/et_select_company_name"
+                            android:textColor="@color/textcolour"
+                            android:hint="@string/select_company_name"
+                            android:backgroundTint="@color/edittext_line_colour"
+                            android:layout_height="wrap_content"
+                    />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:textColorHint="@color/textcolour"
+                        app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:inputType="none"
+                            android:id="@+id/et_insurancedate"
+                            android:textColor="@color/textcolour"
+                            android:textIsSelectable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:hint="@string/insurancedate"
+                            android:backgroundTint="@color/edittext_line_colour"
+                            android:layout_height="wrap_content"
+                    />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/yellow"
+                    android:textStyle="bold"
+                    android:id="@+id/tv_photo_insurance"
+                    android:layout_margin="@dimen/_15sdp"
+
+            />
+
+            <RelativeLayout android:layout_width="150dp"
+                            android:background="@drawable/dashgap"
+                            android:layout_gravity="center"
+                            android:id="@+id/relative_profile"
+                             android:layout_margin="@dimen/_15sdp"
+                            android:layout_height="150dp">
+
+                <ImageView android:layout_width="70dp"
+                           android:layout_centerInParent="true"
+                           android:contentDescription="@null"
+                           android:id="@+id/iv_logo_for_profile"
+                           android:background="@drawable/uploadnoimage"
+                           android:layout_height="70dp"/>
+                <ImageView android:layout_width="150dp"
+                           android:contentDescription="@null"
+                           android:id="@+id/iv_profile"
+                           android:layout_height="150dp"/>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/text_colour_button"
+            android:id="@+id/save"
+            android:background="@drawable/square"
+            android:textAllCaps="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:text="@string/save"
+    />
+
+</RelativeLayout>

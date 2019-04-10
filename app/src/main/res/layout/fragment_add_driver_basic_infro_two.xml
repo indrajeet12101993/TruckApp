@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_height="match_parent"
+>
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_above="@+id/tv_partner"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:layout_margin="@dimen/_15sdp"
+                      android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/yellow"
+                    android:text="@string/vehicle_documents"
+            />
+            <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:clipToPadding="true"
+                    app:cardElevation="3dp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    app:cardBackgroundColor="@color/card_background"
+                    app:cardUseCompatPadding="true"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/tv_rc"
+                        android:layout_margin="@dimen/_5sdp"
+
+                        android:textColor="@color/card_text_colour"
+                        android:text="@string/rc"
+                />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:clipToPadding="true"
+                    app:cardElevation="3dp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    app:cardBackgroundColor="@color/card_background"
+                    app:cardUseCompatPadding="true"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/tv_insurance"
+                        android:layout_margin="@dimen/_5sdp"
+
+                        android:textColor="@color/card_text_colour"
+                        android:text="@string/insurance"
+                />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:clipToPadding="true"
+                    app:cardElevation="3dp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    app:cardBackgroundColor="@color/card_background"
+                    app:cardUseCompatPadding="true"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/tv_permit_validity"
+                        android:layout_margin="@dimen/_5sdp"
+
+                        android:textColor="@color/card_text_colour"
+                        android:text="@string/permit_validity"
+                />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:clipToPadding="true"
+                    app:cardElevation="3dp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    app:cardBackgroundColor="@color/card_background"
+                    app:cardUseCompatPadding="true"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/tv_puc"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:textColor="@color/card_text_colour"
+                        android:text="@string/puc"
+                />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:clipToPadding="true"
+                    app:cardElevation="3dp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    app:cardBackgroundColor="@color/card_background"
+                    app:cardUseCompatPadding="true"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/tv_fitness"
+                        android:layout_margin="@dimen/_5sdp"
+
+                        android:textColor="@color/card_text_colour"
+                        android:text="@string/fitness"
+                />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:clipToPadding="true"
+                    app:cardElevation="3dp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    app:cardBackgroundColor="@color/card_background"
+                    app:cardUseCompatPadding="true"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:id="@+id/tv_fast_tag_number"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:textColor="@color/card_text_colour"
+                        android:text="@string/fast_tag_number"
+                />
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/text_colour_button"
+            android:id="@+id/tv_partner"
+            android:background="@drawable/square"
+            android:textAllCaps="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:visibility="gone"
+            android:padding="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:text="@string/save"
+    />
+
+</RelativeLayout>

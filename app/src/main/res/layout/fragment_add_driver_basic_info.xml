@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_height="match_parent"
+>
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_above="@+id/tv_partner"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:focusableInTouchMode="true"
+                      android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:textColor="@color/yellow"
+                    android:text="@string/edit_basic_info"
+            />
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:orientation="vertical"
+                          android:layout_marginTop="@dimen/_12sdp"
+                          android:layout_marginStart="@dimen/_20sdp"
+                          android:layout_marginEnd="@dimen/_20sdp"
+                          android:layout_marginBottom="@dimen/_20sdp"
+                          android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/textcolour"
+                        app:errorEnabled="true">
+                    <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:inputType="text"
+                            android:id="@+id/et_name_as_adhar"
+                            android:textColor="@color/textcolour"
+                            android:hint="@string/name_as_per_aaddar_card"
+                            android:backgroundTint="@color/edittext_line_colour"
+                            android:layout_height="wrap_content"
+                    />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:textColorHint="@color/textcolour"
+                        app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:inputType="number"
+                            android:id="@+id/et_mobile"
+                            android:maxLength="10"
+                            android:textColor="@color/textcolour"
+                            android:hint="@string/mobile_number"
+                            android:backgroundTint="@color/edittext_line_colour"
+                            android:layout_height="wrap_content"
+                    />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:textColorHint="@color/textcolour"
+                        app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:inputType="textEmailAddress"
+                            android:id="@+id/et_email"
+                            android:textColor="@color/textcolour"
+                            android:hint="@string/email"
+                            android:backgroundTint="@color/edittext_line_colour"
+                            android:layout_height="wrap_content"
+                    />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:textColorHint="@color/textcolour"
+                        app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+
+                            android:id="@+id/et_registerd_city"
+                            android:textColor="@color/textcolour"
+                            android:hint="@string/registed_in_city"
+                            android:focusable="false"
+                            android:cursorVisible="false"
+                            android:textIsSelectable="false"
+                            android:inputType="none"
+                            android:drawableEnd="@drawable/ic_expand_more_yellow_24dp"
+                            android:backgroundTint="@color/edittext_line_colour"
+                            android:layout_height="wrap_content"
+                    />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/text_colour_button"
+                android:id="@+id/tv_next"
+                android:background="@drawable/square"
+                android:textAllCaps="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:text="@string/next"
+        />
+
+</RelativeLayout>

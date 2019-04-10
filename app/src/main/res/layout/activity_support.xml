@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/refer_bottom_colour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:weightSum="3"
+                  android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_weight=".25"
+                      android:layout_height="0dp">
+            <com.google.android.material.appbar.AppBarLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:theme="@style/AppTheme.AppBarOverlay">
+
+                <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="@color/toolbar_background_colour"
+                >
+
+
+                    <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="?attr/actionBarSize">
+
+                        <TextView android:layout_width="wrap_content"
+                                  android:id="@+id/toolbar_title"
+                                  android:textColor="@color/yellow"
+                                  android:layout_centerVertical="true"
+                                  android:textSize="18sp"
+                                  android:layout_alignParentStart="true"
+                                  android:text="Support"
+                                  android:layout_height="wrap_content"/>
+
+
+                    </RelativeLayout>
+
+                </androidx.appcompat.widget.Toolbar>
+
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_weight="1.2"
+                      android:background="@color/refer_top_colour"
+                      android:layout_height="0dp">
+            <ImageView android:layout_width="match_parent"
+                       android:adjustViewBounds="true"
+                       android:src= "@drawable/support"
+                       android:layout_marginBottom="@dimen/_15sdp"
+                       android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_weight="1.5"
+                      android:orientation="vertical"
+                      android:background="@color/refer_bottom_colour"
+                      android:layout_height="0dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/yellow"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:layout_gravity="center"
+                    android:text="Reach us out through below methods and we will be happy to help you!"
+            />
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:background="@drawable/square"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/text_colour_button"
+
+                        android:textAllCaps="true"
+                        android:layout_centerInParent="true"
+                        android:padding="@dimen/_8sdp"
+                        android:text="Give Us a Quick Call"
+                />
+            </RelativeLayout>
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="@drawable/square"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/text_colour_button"
+
+                        android:textAllCaps="true"
+                        android:layout_centerInParent="true"
+                        android:padding="@dimen/_8sdp"
+                        android:text="Have Something to mail?"
+                />
+            </RelativeLayout>
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="@drawable/square"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/text_colour_button"
+                        android:id="@+id/tv_partner"
+                        android:textAllCaps="true"
+                        android:layout_centerInParent="true"
+                        android:padding="@dimen/_8sdp"
+                        android:text="Whats App"
+                />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

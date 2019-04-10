@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@color/refer_top_colour"
+        android:layout_height="match_parent">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/black"
+            android:id="@+id/relative_top_1"
+            android:padding="@dimen/_15sdp"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_17sdp"
+                android:textColor="@color/yellow"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:text="@string/new_booking"
+        />
+
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_below="@id/relative_top_1"
+            android:layout_height="wrap_content">
+
+
+        <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+        >
+
+            <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardUseCompatPadding="true"
+
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+
+                    <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_margin="@dimen/_15sdp"
+                            android:orientation="vertical"
+                            android:id="@+id/relative_top"
+                            android:layout_height="wrap_content">
+
+                        <TextView
+                                android:id="@+id/btn"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:layout_alignParentTop="true"
+                                android:background="@drawable/circle_shape"/>
+
+                        <View
+                                android:layout_width="3dp"
+                                android:layout_height="200dp"
+                                android:id="@+id/view"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:background="#ff9800"/>
+
+                        <TextView
+                                android:id="@+id/btn1"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:layout_below="@id/view"
+                                android:background="@drawable/circle_shape"/>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout android:layout_width="match_parent"
+                                    android:layout_margin="@dimen/_15sdp"
+                                    android:layout_height="match_parent">
+                        <LinearLayout android:layout_width="wrap_content"
+                                      android:orientation="vertical"
+                                      android:id="@+id/lineartop"
+                                      android:layout_alignParentTop="true"
+                                      android:layout_height="wrap_content">
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Pickup"
+
+                                    android:textColor="#4a4a4a"
+                                    android:textStyle="bold"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:id="@+id/tv_pickup"
+                                    android:layout_marginTop="@dimen/_4sdp"
+                                    android:textColor="#262319"
+
+                            />
+                        </LinearLayout>
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:orientation="vertical"
+                                android:id="@+id/libottom"
+                                android:layout_alignParentBottom="true"
+                                android:layout_height="wrap_content">
+
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Dropof "
+                                    android:textColor="#4a4a4a"
+                                    android:textStyle="bold"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:id="@+id/tv_dropoff"
+                                    android:layout_marginTop="@dimen/_4sdp"
+                                    android:textColor="#262319"
+
+                            />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardUseCompatPadding="true"
+
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:id="@+id/tv_customername"
+                            android:padding="@dimen/_8sdp"
+                            android:textColor="#262319"
+
+                    />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:id="@+id/tv_booking"
+                            android:padding="@dimen/_8sdp"
+                            android:textColor="#262319"
+
+                    />
+                    <RelativeLayout android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:padding="@dimen/_8sdp"
+                                android:textStyle="bold"
+                                android:id="@+id/tvcallsender"
+                                android:layout_marginStart="@dimen/_3sdp"
+                                android:layout_alignParentStart="true"
+                                android:background="@drawable/square"
+                                android:textColor="@color/white"
+                                android:text="Call Sender"
+                        />
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:padding="@dimen/_8sdp"
+                                android:textStyle="bold"
+                                android:id="@+id/tvnavigate"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="@dimen/_3sdp"
+                                android:background="@drawable/square"
+                                android:textColor="@color/white"
+                                android:text="Naviagte"
+                        />
+                    </RelativeLayout>
+
+                    <RelativeLayout android:layout_width="match_parent"
+                                    android:layout_marginTop="@dimen/_20sdp"
+                                    android:layout_height="wrap_content">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                                android:layout_width="match_parent"
+                                android:id="@+id/et_otp"
+                                android:inputType="number"
+                                android:hint="@string/enter_otp_provide_by_driver"
+                                android:layout_height="wrap_content"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:padding="@dimen/_8sdp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:id="@+id/tvgo"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="@dimen/_3sdp"
+                                android:background="@drawable/square"
+                                android:textColor="@color/white"
+                                android:text="Go For Ride"
+                        />
+                    </RelativeLayout>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:id="@+id/tvcancel"
+                            android:padding="@dimen/_8sdp"
+                            android:textColor="#262319"
+                            android:text="cancel"
+                    />
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

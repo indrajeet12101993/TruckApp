@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/registration_background_colour"
+              android:layout_height="wrap_content">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:id="@+id/iv_profile_pic"
+                android:src="@drawable/profile_pic"
+                android:layout_alignParentStart="true"
+                android:layout_height="50dp"/>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_margin="10dp"
+                      android:layout_toEndOf="@+id/iv_profile_pic"
+                      android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:id="@+id/tv_profile_name"
+                    android:textColor="@color/textcolour"
+                    tools:text="Sanjay Singh"
+            />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/relative"
+                android:layout_margin="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:layout_alignParentEnd="true"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_status"
+                    tools:text="ttttttt"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+
+            />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:gravity="center"
+                  android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.SwitchCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/switch_toogle"
+                android:theme="@style/MySwitch"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_deactvite"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:padding="@dimen/_8sdp"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <View android:layout_width="match_parent"
+          android:background="@color/textcolour"
+          android:layout_height="1dp">
+
+    </View>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@color/window_backgound"
+    >
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textColor="@color/white"
+                android:text="@string/please_enter_your_nmobile_number_to_proceed"
+        />
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_marginStart="@dimen/_15sdp"
+                      android:layout_marginEnd="@dimen/_15sdp"
+                      android:layout_marginTop="@dimen/_30sdp"
+                      android:orientation="horizontal"
+                      android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_19sdp"
+                    android:textColor="@color/white"
+                    android:text="+91"
+            />
+            <EditText android:layout_width="match_parent"
+                      android:id="@+id/et_phone_number"
+                      android:textColor="@color/white"
+                      android:textColorHint="@color/textcolour"
+                      android:inputType="phone"
+                      android:textSize="@dimen/_15sdp"
+                      android:maxLength="10"
+
+                      android:layout_marginStart="@dimen/_3sdp"
+                      android:hint="@string/_91_enter_your_10_digit_mobile_number"
+                      android:backgroundTint="@color/white"
+                      android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_margin="@dimen/_30sdp"
+                        android:layout_height="match_parent">
+            <TextView android:layout_width="match_parent"
+                      android:text="@string/next"
+                      android:background="@drawable/square"
+                      android:textSize="20sp"
+                      android:id="@+id/tv_next"
+                      android:layout_alignParentEnd="true"
+                      android:paddingTop="10dp"
+                      android:paddingBottom="10dp"
+                      android:paddingStart="30dp"
+                      android:drawablePadding="2dp"
+                      android:gravity="center"
+                      android:textAllCaps="true"
+                      android:paddingEnd="28dp"
+                      android:layout_alignParentBottom="true"
+                      android:textColor="@color/text_colour_button"
+                      android:drawableEnd="@drawable/ic_arrow_forward_black_24dp"
+                      android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,99 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+apply plugin: "kotlin-kapt"
+
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.truckintransit.operator"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 9
+        versionName "8.0.2"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        resConfigs "en", "hi", "kn"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+        incremental true
+    }
+
+
+}
+
+dependencies {
+
+    def lifecycle_version = "2.0.0"
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation 'com.google.android.material:material:1.0.0'
+
+    // kotlin glide
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    kapt 'com.github.bumptech.glide:compiler:4.8.0'
+
+    //dimension sdp
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    //circle imageview
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    // pin edittext
+    implementation('com.alimuzaffar.lib:pinentryedittext:2.0.6') {
+        // Exclude is only needed if you already have
+        // androidx.appcompat as a dependency in your app.
+        exclude group: 'androidx.appcompat', module: 'appcompat'
+    }
+
+    // google play services
+    implementation "com.google.android.gms:play-services-gcm:16.1.0"
+    implementation "com.google.android.gms:play-services-auth:16.0.1"
+    // google play services location
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    // ViewModel and LiveData
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+
+    //retrofit with okhttp network intercept
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    //rxjava2 and rxandroid
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.7'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+    //image crop libraray
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.7.0'
+    // firebase
+    // implementation 'com.google.firebase:firebase-core:16.0.6'
+    // push notifications
+    implementation 'com.google.firebase:firebase-messaging:17.4.0'
+
+    // animation slide to unlock and shimmer
+    implementation "com.github.skydoves:androidribbon:1.0.0"
+    implementation 'com.ncorti:slidetoact:0.5.1'
+
+    // lottieanimation
+    implementation 'com.airbnb.android:lottie:2.8.0'
+
+}
+apply plugin: 'com.google.gms.google-services'

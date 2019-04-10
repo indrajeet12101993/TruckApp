@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#c1262319</color>
+    <color name="colorAccent">#ff9800</color>
+    <color name="yellow">#ff9800</color>
+    <color name="white">#ffffff</color>
+    <color name="toolbar_background_colour">#262319</color>
+    <color name="registration_background_colour">#fff</color>
+    <color name="navigation_text_colour">#e0e0e0</color>
+    <color name="window_backgound">#262319</color>
+    <color name="login_text_color">#252525</color>
+    <color name="textcolour">#605a43</color>
+    <color name="text_colour_button">#252525</color>
+    <color name="edittext_line_colour">#979797</color>
+    <color name="bootom_window_background">#262319</color>
+    <color name="top_background">#141413</color>
+    <color name="bottom_background">#262319</color>
+    <color name="card_background">#fafafa</color>
+    <color name="card_text_colour">#656565</color>
+    <color name="refer_top_colour">#d8d8d8</color>
+    <color name="refer_bottom_colour">#e7e7e7</color>
+    <color name="black">#000000</color>
+    <color name="onlinecolour">#008000</color>
+    <color name="offlinecolur">#808080</color>
+    <color name="indigo">#4b0082</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="grey">#D3D3D3</color>
+
+    <!--material colour border change -->
+    <!--color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#fff</color -->
+
+</resources>
